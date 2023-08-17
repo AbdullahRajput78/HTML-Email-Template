@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Card Assignment </title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: rgb(146, 143, 143);
+            display: grid;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        #logopic {
+            margin-left: 187px;
+            margin-top: 32px;
+            height: 70px;
+
+        }
+
+
+        .div1 {
+
+            border-radius: 35px;
+            width: 500px;
+            height: 250px;
+            background-color: rgb(34, 40, 52);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            margin-left: 60px;
+            margin-top: 50px;
+
+
+        }
+
+        .div2 {
+            border-radius: 35px;
+            width: 500px;
+            height: 250px;
+            background-color: rgba(244, 236, 253, 0.913);
+            box-shadow: rgba(45, 45, 85, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+
+        .yourlogo {
+
+
+            font-size: 2rem;
+            font-weight: bold;
+            margin-left: 150px;
+            margin-top: -20px;
+
+        }
+
+        #your {
+            display: inline-block;
+            color: white;
+
+        }
+
+        #logo {
+            display: inline-block;
+
+
+            color: #d6ae4fd8;
+        }
+
+        #tagline {
+            font-size: 18px;
+            color: white;
+            margin-top: -35px;
+
+            text-align: center;
+        }
+
+        .orange {
+            margin-top: 42px;
+            width: 500px;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            height: 35px;
+            background-color: #d6ae4fd8;
+
+        }
+
+        .border2 {
+            margin-top: -65px;
+            margin-left: 150px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 200px;
+            height: 30px;
+            background-color: #d6ae4fd8;
+        }
+
+        .website {
+            text-align: center;
+            margin-top: -25px;
+            font-size: large;
+
+
+        }
+
+        .div12 {
+            margin-top: 0px;
+            width: 45px;
+            height: 250px;
+            border-top-left-radius: 35px;
+            border-bottom-left-radius: 35px;
+            background-color: rgb(34, 40, 52);
+
+        }
+
+        .div22 {
+            margin-top: -33.5%;
+            margin-left: 30px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 10px;
+            width: 45px;
+            height: 150px;
+            background-color: rgb(34, 40, 52);
+        }
+
+        #lb1 {
+            margin-top: -205px;
+            margin-left: 30;
+            background-color: #d6ae4fd8;
+            height: 30px;
+            width: 100px;
+
+        }
+
+        .dp {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        #Dicky {
+            color: #d6ae4fd8;
+            margin-left: 105px;
+            margin-top: -07%;
+        }
+
+        #Prayuda {
+            color: rgb(34, 40, 52);
+            margin-left: 192px;
+            margin-top: -13.5%;
+        }
+
+        #lb2 {
+            margin-top: -65px;
+            background-color: #d6ae4fd8;
+            height: 30px;
+            width: 180px;
+            float: right;
+
+        }
+
+        #wd {
+            color: rgb(34, 40, 52);
+            margin-left: 105px;
+            margin-top: -7%;
+        }
+
+        #barcode {
+            float: left;
+            margin-left: 60%;
+            margin-top: -140px;
+
+            height: 60%;
+
+        }
+
+        #ph {
+            margin-left: 50px;
+            margin-top: 20px;
+
+        }
+
+        #en {
+            margin-left: 50px;
+            margin-top: 12px;
+        }
+
+        #lo {
+            margin-left: 51px;
+            margin-top: 12px;
+        }
+
+        #gl {
+            margin-left: 50px;
+            margin-top: 12px;
+        }
+
+        .phone {
+            border: solid 1px transparent;
+            margin-left: 92px;
+            margin-top: -24%;
+            font-size: 10.5px;
+            border: 1px solid transparent;
+            width: 100px;
+            border-left: 2px solid rgb(34, 40, 52);
+            border-bottom: 2px solid #d6ae4fd8;
+        }
+
+        .email {
+            border: solid 1px transparent;
+            margin-left: 92px;
+            margin-top: 8px;
+            font-size: 10.5px;
+            border: 1px solid transparent;
+            width: 100px;
+            border-left: 2px solid rgb(34, 40, 52);
+            border-bottom: 2px solid #d6ae4fd8;
+        }
+
+        .location {
+            border: solid 1px transparent;
+            margin-left: 92px;
+            margin-top: 6px;
+            font-size: 10.5px;
+            border: 1px solid transparent;
+            width: 100px;
+            border-left: 2px solid rgb(34, 40, 52);
+            border-bottom: 2px solid #d6ae4fd8;
+        }
+
+        .website2 {
+            border: solid 1px transparent;
+            margin-left: 92px;
+            margin-top: 6px;
+            font-size: 10.5px;
+            border: 1px solid transparent;
+            width: 100px;
+            border-left: 2px solid rgb(34, 40, 52);
+            border-bottom: 2px solid #d6ae4fd8;
+         }
+    </style>
+</head>
+
+<body>
+
+    <div class="div1">
+        <img id="logopic" src="./logo.jpg" alt="">
+        <div class="yourlogo">
+            <p id="your"> YOUR </p>
+            <p id="logo"> LOGO</p>
+        </div>
+        <p id="tagline"><i>TAGLINE HERE</i></p>
+        <div class="orange"> </div>
+        <div class="border2"> </div>
+        <h4 class="website"> Yourwebsite.com </h4>
+    </div>
+    <div class="div2">
+        <div class="div12"></div>
+        <div class="div22"></div>
+        <div id="lb1"></div>
+        <div class="dp">
+            <p id="Dicky"> Dicky</p>
+            <p id="Prayuda"> Prayuda</p>
+        </div>
+        <div id="lb2"> </div>
+        <div id="wd">
+            <h3> Web Developer</h3>
+        </div>
+        <div id="ph"> <i class="fa-solid fa-phone" style="color:#d6ae4fd8;"></i></div>
+        <div id="en"><i class="fa-solid fa-envelope" style="color:#d6ae4fd8;"></i></div>
+        <div id="lo"><i class="fa-solid fa-location-dot" style="color: #d6ae4fd8;"></i></div>
+        <div id="gl"> <i class="fa-solid fa-globe" style="color:#d6ae4fd8;"></i></div>
+        <div class="phone">
+            Phone <br> +00 1234 56789
+        </div>
+        <div class="email"> Email <br> Info@example.com</div>
+        <div class="location"> Location <br>Addres here,City,1234</div>
+        <div class="website2"> Website <br>YourWebsite.com</div>
+
+        <img id="barcode" src="./barcoe.jpg" alt="">
+    </div>
+</body>
+
+</html>
